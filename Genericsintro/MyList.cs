@@ -4,12 +4,13 @@ using System.Text;
 
 namespace Genericsintro
 {
-    class MyList<T> // ben MyList imte T ile çalışıcam demek
+    class MyList<T> // ben MyList imte T ile çalışıcam demek, yani kullanıcı new leredn T ye ne derse o ile çalışıcak demek.
     {
         //clası new lediğimizde oluşturmamız laızm. yoksa referans hatası alırız.
         T[] items; // metodun dışında yazdık clasın içinde . add yada başka metotdanda ulaşabilmek için.
       
-        // constructor deniyor = bir class new lendiğinde çalışan bloğa deniyor.
+        // constructor deniyor = bir class new lendiğinde çalışan bloğa deniyor. Alttaki. ctor tab tab
+        // constructor oldugunu aynı isim olmasından anlarız.
         public MyList()
         {
             items = new T[0];
