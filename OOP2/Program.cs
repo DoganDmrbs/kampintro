@@ -21,7 +21,7 @@ namespace OOP2
             musteri2.SirketAdi = "Kodlama.io";
             musteri2.VergiNo = "12344567890";
 
-
+            //
             Musteri musteri3 = new GercekMusteri();
             Musteri musteri4 = new TuzelMusteri();
             // Musteri hem gerçek hemde tuzelin referansını tutuyor.
